@@ -7,7 +7,7 @@ import { flexMixin } from "./style/style";
 
 //section
 const ContentsContainer = styled.section`
-  ${flexMixin({ wrap: "wrap", gap: 20 })}
+  ${flexMixin({ justify: "center", align: "center", wrap: "wrap", gap: 20 })}
   padding: 20px 40px;
 `;
 function App() {
