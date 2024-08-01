@@ -9,6 +9,7 @@ const StyledContent = styled.div`
     width: 300px;
     border-radius: 10px;
     margin-bottom: 3px;
+    min-height: 225px;
   }
   span {
     ${fontMixin({ size: 12 })}

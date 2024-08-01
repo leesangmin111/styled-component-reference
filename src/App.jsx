@@ -9,7 +9,6 @@ import { flexMixin } from "./style/style";
 const ContentsContainer = styled.section`
   ${flexMixin({ wrap: "wrap", gap: 20 })}
   padding: 20px 40px;
-  min-height: 225px;
 `;
 function App() {
   return (
