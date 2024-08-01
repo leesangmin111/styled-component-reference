@@ -4,12 +4,12 @@ import { flexMixin, fontMixin } from "../style/style";
 //.header-container
 const StyledHeader = styled.header`
   ${flexMixin({ justify: "space-between", align: "center" })}
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: black;
   ul {
     ${flexMixin({ justify: "center", align: "center", gap: 20 })}
     li {
-      ${fontMixin({ size: 13, weight: 400 })}
+      ${fontMixin({ size: 16, weight: 400 })}
       list-style: none;
     }
   }
@@ -18,7 +18,7 @@ const StyledHeader = styled.header`
 export default function Header() {
   return (
     <StyledHeader className="header-container">
-      <h2>OZ코딩스쿨</h2>
+      <h1>OZ코딩스쿨</h1>
       <ul className="menu-container">
         <li>로그인</li>
         <li>회원가입</li>
